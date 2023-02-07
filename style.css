@@ -28,15 +28,15 @@ body {
     border-radius: 1rem;
 }
 
-.header {
+#header {
     font-size: 3rem;
 }
 
-.paragraph {
+#paragraph {
     margin: 1rem 0 2rem 0;
 }
 
-.button {
+#button {
     background-color: #fab22a;
     color: black;
     padding: 0.3rem;
