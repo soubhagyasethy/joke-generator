@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container {
@@ -21,11 +22,11 @@ body {
     color: whitesmoke;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1rem 3rem;
-    height: 20rem;
-    width: 30rem;
+    min-height: 20rem;
+    max-width: 25rem;
     position: absolute;
     top: 20%;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 #header {
@@ -34,14 +35,22 @@ body {
 
 #paragraph {
     margin: 1rem 0 2rem 0;
+    text-align: justify;
 }
 
 #button {
     background-color: #fab22a;
     color: black;
-    padding: 0.3rem;
+    padding: 0.5rem;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.9;
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
 }
