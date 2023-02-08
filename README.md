@@ -31,7 +31,7 @@ Clicking the "Get me a joke" button will display a random joke.
   <li>To make it stand out even more, added some box shadow to it.</li>
 </ul>
 
-### Javascript:
+### JavaScript:
 <ul>
   <li>Added event listeners to the button and the paragraph, assigned them to variables.</li>
   <li>Next, created a constant and the API URL to it.</li>
