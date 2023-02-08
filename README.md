@@ -28,14 +28,14 @@ Clicking the "Get me a joke" button will display a random joke.
 <ul>
   <li>The CSS styles used here are pretty basic and self-explanatory. </li>
   <li>Used the usual CSS reset to remove the unwanted paddings and margins.</li>
-  <li>The container is 80vmin wide. Using the absolute position and translate, the container is centered.</li>
+  <li>The container is 80vmin wide. Using the absolute position and translate property, the container is centred.</li>
   <li>To make it stand out even more, added some box shadow to it.</li>
 </ul>
 
 ### JavaScript:
 <ul>
   <li>Added event listeners to the button and the paragraph, assigned them to variables.</li>
-  <li>Next, created a constant and the API URL to it.</li>
+  <li>Next, created a constant and assigned the API URL to it.</li>
   <li>Here I have used the Joke API by Sv443.</li>
   <li>Fetched and got a JSON response. That response is a JSON object. </li>
   <li>I needed the joke key from that object. Extracted the value of the joke key and displayed it in the p element.</li>
