@@ -5,8 +5,12 @@
     padding: 0;
 }
 
+:root {
+    --orange: #fab22a;
+}
+
 body {
-    background-color: #fab22a;
+    background-color: var(--orange);
 }
 
 .container {
@@ -17,12 +21,13 @@ body {
     background-color: black;
     width: 80vmin;
     padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1.5rem 1.5rem 3rem rgba(97, 63, 0, 0.4);
+    /*Centering the container */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*Centering the container */
-    border-radius: 0.5rem;
-    box-shadow: 1.5rem 1.5rem 3rem rgba(97, 63, 0, 0.4);
+    transform: translate(-50%, -50%);  
 }
 
 #laugh-emoji {
@@ -40,7 +45,7 @@ body {
 }
 
 #button {
-    background-color: #fab22a;
+    background-color: var(--orange);
     color: black;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
