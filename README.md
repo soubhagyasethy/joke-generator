@@ -22,15 +22,18 @@ Clicking the "Get me a joke" button will display a random joke.
   <li>Following the span is the p element where the joke is displayed. And a button consists of text – ‘Get Me A Joke’.</li>
 </ul>
 
-### CSS:
-  
+![html](https://user-images.githubusercontent.com/82697602/217585530-a97f7827-711e-45fb-bc69-ee7b41e4afef.png)
 
+### CSS:
 <ul>
   <li>The CSS styles used here are pretty basic and self-explanatory. </li>
   <li>Used the usual CSS reset to remove the unwanted paddings and margins.</li>
   <li>The container is 80vmin wide. Using the absolute position and translate property, the container is centred.</li>
   <li>To make it stand out even more, added some box shadow to it.</li>
 </ul>
+
+![css](https://user-images.githubusercontent.com/82697602/217584398-9baf0e7b-0867-4c5a-9be7-2d155c40233f.png)
+
 
 ### JavaScript:
 <ul>
@@ -42,5 +45,9 @@ Clicking the "Get me a joke" button will display a random joke.
   <li>Next, added a click event to the button so that the get Joke function is run on every button click.</li>
   <li>And that’s it. The joke generator was ready. </li>
 </ul>
+
+![javascript](https://user-images.githubusercontent.com/82697602/217585137-061140ac-9aa3-4c8f-bb02-a6afb580638f.png)
+
+
 Here is the link: https://funnyjoke-generator.netlify.app/  Have fun using it!
 
