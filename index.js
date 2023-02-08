@@ -1,5 +1,5 @@
 const button = document.querySelector("#button");
-const jokeContainer = document.querySelector("#joke");
+const jokeContainer = document.querySelector("#joke-container");
 const URL = "https://v2.jokeapi.dev/joke/Any"
 
 let getJoke = () => {
