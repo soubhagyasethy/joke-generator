@@ -1,6 +1,6 @@
 # Joke Generator
 
-Want to tell jokes like Chandler but running out of jokes? Worried no more.<br>
+Wanna crack jokes like Chandler but run out of jokes? Worried no more.<br>
 Try this joke-generator website for unlimited funny jokes: https://funnyjoke-generator.netlify.app/ 
 
 
